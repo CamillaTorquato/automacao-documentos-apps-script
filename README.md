@@ -1,31 +1,33 @@
-Automação de Documentos — Google Apps Script
-Objetivo
+**Automação de Documentos — Google Apps Script**
+
+**Objetivo**
 
 Automatizar a localização de notas fiscais e boletos em arquivos PDF armazenados no Google Drive, vinculando os documentos aos respectivos lançamentos em uma planilha do Google Sheets.
 
-Funcionalidades
-Processamento dos lançamentos por data.
-Busca de PDFs em pastas organizadas por dia.
-Identificação de notas fiscais, boletos e faturas.
-Correspondência por número da fatura, nome, valor e CNPJ.
-Inserção de links dos documentos nas colunas J e K.
-Registro de situações que precisam de conferência na coluna Q.
-Exibição de um resumo ao final do processamento.
-Tecnologias
-Google Apps Script
-Google Sheets
-Google Drive
-Git e GitHub para versionamento do código
-Utilização
-Abra a planilha vinculada ao projeto.
-Acesse o menu 📎 Documentos.
-Selecione Processar um dia.
-Informe a data no formato DD.MM.AAAA.
-Confira os links inseridos e os resultados do processamento.
-Segurança
+**Funcionalidades**
 
-O código pode depender de identificadores de pastas e permissões do Google Drive. Não publique informações confidenciais, credenciais ou identificadores internos em um repositório público.
+- Processamento dos lançamentos por data.
+- Busca de PDFs em pastas organizadas por dia.
+- Identificação de notas fiscais, boletos e faturas.
+- Correspondência por número da fatura, nome, valor e CNPJ.
+- Inserção de links dos documentos nas colunas correspondentes.
+- Registro de situações que precisam de conferência na coluna designada.
+- Exibição de um resumo ao final do processamento.
+  
+**Tecnologias**
+- Google Apps Script
+- Google Sheets
+- Google Drive
 
-Observação
+**Utilização**
+1. Abra a planilha vinculada ao projeto.
+2. Acesse o menu 📎 Documentos.
+3. Selecione Processar um dia.
+4. Informe a data no formato DD.MM.AAAA.
+5. Confira os links inseridos e os resultados do processamento.
+   
 
-O GitHub armazena o código-fonte. A execução da automação continua sendo realizada pelo Google Apps Script.
+**Observações**
+
+O código pode depender de identificadores de pastas e permissões do Google Drive.  
+A execução da automação é realizada pelo Google Apps Script.
